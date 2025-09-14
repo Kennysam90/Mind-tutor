@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../../Component/Header'
 import Footer from '../../../Component/Footer'
 import TutorSidebar from '../../../Component/TutorSidebar'
+import { Link } from 'react-router-dom'
+import SettingTopbar from '../../../Component/SettingTopbar'
 
 const Settings = () => {
   return (
@@ -63,17 +65,8 @@ const Settings = () => {
           <div className="mb-3">
             <h5>Settings</h5>
           </div>				
-          <ul className="settings-nav d-flex align-items-center flex-wrap border bg-light-900 rounded">
-            <li><a href="instructor-settings.html" className="active">Profile</a></li>
-            <li><a href="instructor-change-password.html">Security</a></li>
-            <li><a href="instructor-plans.html">Plans</a></li>
-            <li><a href="instructor-social-profiles.html">Social Profiles</a></li>
-            <li><a href="instructor-linked-accounts.html">Linked Accounts</a></li>
-            <li><a href="instructor-notifications.html">Notifications</a></li>
-            <li><a href="instructor-integrations.html">Integrations</a></li>
-            <li><a href="instructor-withdraw.html">Withdraw</a></li>
-          </ul>
-          <form action="https://dreamslms.dreamstechnologies.com/html/template/instructor-settings.html">
+          <SettingTopbar />
+          <form action="https://dreamslms.dreamstechnologies.com/html/template/settings">
             <div className="card">
               <div className="card-body">									
                 <div className="profile-upload-group">									

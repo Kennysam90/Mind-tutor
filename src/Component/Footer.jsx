@@ -143,10 +143,10 @@ const Footer = () => {
             <div className="col-lg-4">
               <ul className="d-flex align-items-center justify-content-center footer-link">
                 <li>
-                  <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                  <Link to="/conditions">Terms &amp; Conditions</Link>
                 </li>
                 <li>
-                  <a href="privacy-policy.html">Privacy Policy</a>
+                  <Link to="/privacypolicy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>

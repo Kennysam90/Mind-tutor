@@ -44,7 +44,7 @@ const Cart = () => {
                   <div className="row align-items-center row-gap-3">
                     <div className="col-md-3">
                       <div className="cart-img">
-                        <a href="course-details.html"><img src="assets/img/course/course-01.jpg" alt="img" className="img-fluid w-100" /></a>
+                        <Link to="/coursedetail"><img src="assets/img/course/course-01.jpg" alt="img" className="img-fluid w-100" /></Link>
                       </div>
                     </div>
                     <div className="col-md-9">
@@ -57,7 +57,7 @@ const Cart = () => {
                             <p className="mb-0"><a href="instructor-profile.html">David Benitez</a></p>
                           </div>
                           <div className="mb-2">
-                            <h6 className="fs-18 mb-0"><a href="course-details.html">Information About UI/UX Design Degree</a></h6>
+                            <h6 className="fs-18 mb-0"><Link to="/coursedetail">Information About UI/UX Design Degree</Link></h6>
                           </div>
                           <div className="d-flex align-items-center">
                             <span className="star me-2"><i className="fa-solid fa-star" /></span>
@@ -82,7 +82,7 @@ const Cart = () => {
                   <div className="row align-items-center row-gap-3">
                     <div className="col-md-3">
                       <div className="cart-img">
-                        <a href="course-details.html"><img src="assets/img/course/course-03.jpg" alt="img" className="img-fluid w-100" /></a>
+                        <Link to="/coursedetail"><img src="assets/img/course/course-03.jpg" alt="img" className="img-fluid w-100" /></Link>
                       </div>
                     </div>
                     <div className="col-md-9">
@@ -95,7 +95,7 @@ const Cart = () => {
                             <p className="mb-0"><a href="instructor-profile.html">Andrew Pirtle</a></p>
                           </div>
                           <div className="mb-2">
-                            <h6 className="fs-18 mb-0"><a href="course-details.html">Sketch from A to Z (2024): Become an app designer</a></h6>
+                            <h6 className="fs-18 mb-0"><Link to="/coursedetail">Sketch from A to Z (2024): Become an app designer</Link></h6>
                           </div>
                           <div className="d-flex align-items-center">
                             <span className="star me-2"><i className="fa-solid fa-star" /></span>

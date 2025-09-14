@@ -37,20 +37,20 @@ const StudentSidebar = () => {
                   <a href="student-referral.html" className="d-inline-flex align-items-center"><i className="isax isax-tag-user5 me-2" />Referrals</a>
                 </li>
                 <li>
-                  <a href="student-messages.html" className="d-inline-flex align-items-center"><i className="isax isax-messages-35 me-2" />Messages</a>
+                  <Link to="/studentmessage" className="d-inline-flex align-items-center"><i className="isax isax-messages-35 me-2" />Messages</Link>
                 </li>
                 <li>
-                  <a href="student-tickets.html" className="d-inline-flex align-items-center"><i className="isax isax-ticket5 me-2" />Support Tickets</a>
+                  <Link to="/studentticket" className="d-inline-flex align-items-center"><i className="isax isax-ticket5 me-2" />Support Tickets</Link>
                 </li>
               </ul>
               <hr />
               <h6 className="mb-3">Account Settings</h6>
               <ul>
                 <li>
-                  <a href="student-settings.html" className="d-inline-flex align-items-center"><i className="isax isax-setting-25 me-2" />Settings</a>
+                  <Link to="/studentsettings" className="d-inline-flex align-items-center"><i className="isax isax-setting-25 me-2" />Settings</Link>
                 </li>
                 <li>
-                  <a href="login.html" className="d-inline-flex align-items-center"><i className="isax isax-logout5 me-2" />Logout</a>
+                  < Link to="/login" className="d-inline-flex align-items-center"><i className="isax isax-logout5 me-2" />Logout</Link>
                 </li>
               </ul>
             </div>

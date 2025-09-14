@@ -62,67 +62,31 @@ const Header = () => {
               <li className="has-submenu">
                 <a href="#">Pages <i className="fas fa-chevron-down" /></a>
                 <ul className="submenu">
-                  <li className="has-submenu">
+                  {/* <li className="has-submenu">
                     <a href="#">Instructors</a>
                     <ul className="submenu">
                       <li><a href="instructor-grid.html">Instructor Grid</a></li>
                       <li><a href="instructor-list.html">Instructor List</a></li>
                       <li><a href="instructor-details.html">Instructor Details</a></li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li><Link to="/aboutus">About Us</Link></li>
                   <li><Link to="/contactus">Contact us</Link></li>
                   <li><Link to="/notifications">Notifications</Link></li>
-                  <li><a href="become-an-instructor.html">Become an Instructor</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li className="has-submenu">
-                    <a href="#">Authentication</a>
-                    <ul className="submenu">
-                      <li><a href="forgot-password.html">Forgot Password</a></li>
-                      <li><a href="reset-password.html">Reset Password</a></li>
-                      <li><a href="set-password.html">Set Password</a></li>
-                      <li><a href="otp.html">OTP</a></li>
-                      <li><a href="lock-screen.html">Lock Screen</a></li>
-                    </ul>
-                  </li>
-                  <li className="has-submenu">
-                    <a href="#">Error</a>
-                    <ul className="submenu">
-                      <li><a href="error-404.html">404 Error</a></li>
-                      <li><a href="error-500.html">500 Error</a></li>
-                    </ul>
-                  </li>
+                  {/* <li><a href="become-an-instructor.html">Become an Instructor</a></li> */}
+                  {/* <li><a href="testimonials.html">Testimonials</a></li> */}
                   <li><Link to="/pricingplan">Pricing Plan</Link></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                  <li><a href="under-construction.html">Under Construction</a></li>
-                  <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
-                  <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                  <li><a href="index-rtl.html">RTL</a></li>
                 </ul>
               </li>	
               <li className="has-submenu">
                 <a href="#">Blog <i className="fas fa-chevron-down" /></a>
                 <ul className="submenu">
-                  <li className="has-submenu">
-                    <a href="#">Blog Layouts</a>
-                    <ul className="submenu">
-                      <li><a href="blog-grid.html">Blog 1 Grid</a></li>
-                      <li><a href="blog-2-grid.html">Blog 2 Grid</a></li>
-                      <li><a href="blog-3-grid.html">Blog 3 Grid</a></li>
-                      <li><a href="blog-carousal.html">Blog Carousal</a></li>
-                      <li><a href="blog-masonry.html">Blog Mansory</a></li>
-                      <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                      <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                    </ul>
+                  <li
+                  >
+                    <Link to="/bloggrid">Blog Grid</Link>
                   </li>
-                  <li className="has-submenu">
-                    <a href="#">Blog Details</a>
-                    <ul className="submenu">
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                      <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                      <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                    </ul>
+                  <li>
+                    <Link to="/blogdetails">Blog Details</Link>
                   </li>
                 </ul>
               </li>
@@ -226,10 +190,10 @@ const Header = () => {
               </a>
             </div>
             <div className="icon-btn">
-              <a href="cart.html" className="position-relative">
+              <Link to="/cart" className="position-relative">
                 <i className="isax isax-shopping-cart5" />
                 <span className="count-icon bg-success p-1 rounded-pill text-white fs-10 fw-bold">1</span>
-              </a>
+              </Link>
             </div>
             <Link to="/login" className="btn btn-primary d-inline-flex align-items-center me-2">
               Sign In
